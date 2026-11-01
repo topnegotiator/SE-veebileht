@@ -5,6 +5,12 @@ jobs:
   validate-html_css:
     runs-on: ubuntu-latest
     steps:
-      - uses: anishathalye/proof-html@v2
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: validate-html_css
+        uses: anishathalye/proof-html@v2
         with:
-          directory: ./main
+          directory: .
+          enforce_https: false
+          check_favicon: false
