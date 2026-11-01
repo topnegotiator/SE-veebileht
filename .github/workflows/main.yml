@@ -1,2 +1,8 @@
-- name: Proof HTML
-  uses: anishathalye/proof-html@v2.2.5
+name: Proof HTML
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anishathalye/proof-html@v2.2.5
