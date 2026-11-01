@@ -1,8 +1,8 @@
 name: Proof HTML
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is validating the push.
 on: [push]
 jobs:
-  check-bats-version:
+  validate-html/css:
     runs-on: ubuntu-latest
     steps:
       - uses: anishathalye/proof-html@v2.2.5
