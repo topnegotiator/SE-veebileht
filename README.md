@@ -8,7 +8,7 @@ Meie rühma „Matkajad“ projektiks on veebileht, mis tutvustab erinevaid Eest
 
 - [Avaleht – index.html](index.html)
 - [Teine leht – secondary.html](secondary.html)
-- [Kolmas leht – tertiary.html](tertiary.html)
+- [Kolmas leht – tetriary.html](tetriary.html)
 - [CSS – styles.css](styles.css)
 
 ## GitHubi töökorraldus
